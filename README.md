@@ -98,6 +98,16 @@ On other illumos distributions you'll need to ensure you have a complete
 developer toolchain and as many versions of java as are available in that
 distribution.
 
+### Linux
+
+There's also some support for Linux on SPARC. I've used a Debian SPARC
+LDOM on my T4-1 to successfully build JDK17, and that's a lot quicker
+than the Zero build available in Debian. Downloads for testing
+[here](https://pkgs.tribblix.org/openjdk/sparc-linux/).
+
+To use the dobuild script, make sure you use bash, as the Debian /bin/sh
+is a bit different.
+
 ## Documentation
 
 More extensive [documentation](doc/README.md) is available, to help you
