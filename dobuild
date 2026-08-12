@@ -773,6 +773,21 @@ do_install() {
 		jdk23*|openjdk23*|jdk-23*|openjdk-23*)
 		    mver=jdk23
 		    ;;
+		jdk24*|openjdk24*|jdk-24*|openjdk-24*)
+		    mver=jdk24
+		    ;;
+		jdk25*|openjdk25*|jdk-25*|openjdk-25*)
+		    mver=jdk25
+		    ;;
+		jdk26*|openjdk26*|jdk-26*|openjdk-26*)
+		    mver=jdk26
+		    ;;
+		jdk27*|openjdk27*|jdk-27*|openjdk-27*)
+		    mver=jdk27
+		    ;;
+		jdk28*|openjdk28*|jdk-28*|openjdk-28*)
+		    mver=jdk28
+		    ;;
 		*)
 		    bail "unrecognised version"
 		    ;;
