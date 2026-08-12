@@ -566,7 +566,7 @@ enable_gtest_new() {
     # but there's a large element of guesswork in this
     #
     case $jmver in
-	jdk22|jdk23|jdk24|jdk25|jdk26|jdk27)
+	jdk22|jdk23|jdk24|jdk25|jdk26|jdk27|jdk28)
 	    gver="1.14.0"
 	    ;;
 	jdk21)
